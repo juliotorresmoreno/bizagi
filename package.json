@@ -1,0 +1,38 @@
+{
+  "name": "conector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "bz-util": "^2.1.0",
+    "cluster": "^0.7.7",
+    "dgram": "^1.0.1",
+    "es2015": "^0.0.0",
+    "fs": "^0.0.1-security",
+    "loggly": "^1.1.1",
+    "node-fs": "^0.1.7",
+    "nodemailer": "^4.4.1",
+    "tls": "^0.0.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "transform-runtime": "^0.0.0",
+    "webpack": "^3.10.0",
+    "webpack-async-await": "^1.1.0"
+  }
+}
